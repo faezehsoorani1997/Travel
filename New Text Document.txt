@@ -23,7 +23,7 @@
  
      <style>
      .Purple{ 
-         background-image: linear-gradient( rgb(22, 3, 104),rgb(118, 91, 238)) ;
+         background-image: linear-gradient( rgb(29, 2, 51), rgb(96, 58, 107)) ;
         }
         .PurpleB{
          border-color: rgb(58, 2, 58);
@@ -47,8 +47,13 @@
       }
       </style>
 </head>
-
 <body class="Purple">
+  
+  
+
+
+
+
 
     <!--
     <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
@@ -89,12 +94,14 @@
     
         </div>
     </nav>
-   -->   <!-- navbar -->
-   
+   -->
+
+   <!-- navbar -->
    <div class="container  ">
-<div class="bg-image mt-5"style="background-image: url('https://mdbcdn.b-cdn.net/img/Photos/Others/images/77.webp'); height: 300px;">   
- <div class="row ps- 1">
- <div class="col-2">
+           
+    <div class="container ">
+<div class="row ps- 1">
+<div class="col-2">
    <div class="container-fluid  mt-5">
      <nav class="navbar navbar-dark PurpleB  ">
          
@@ -154,7 +161,7 @@
     <div class="container-fluid">
     <div class=" align-content-center text-white text-start">
       <h1>TRAVEL</h1></br>
-      <p class="display-5">Find and compare cheap taxi</p>
+      <p class="display-5">Find and compare cheap flights</p>
      </div>
     </div>
   </div>
@@ -167,9 +174,10 @@
         Sign in</button>
       </div>
    </div>
-   </div>
-</div>
    <!-- book -->
+
+
+
     <section class="ftco-section pb-1 justify-content-center ftco-search">
     	<div class="container ps-3 ms-3">
     		<div class="row ">
@@ -273,75 +281,56 @@
 
     <!-- Reslt -->
     <section class="ftco-section pb-1 justify-content-center ftco-search">
-      <div class="container ps-3 ms-3">
-        <div class="row ">
+    	<div class="container ps-3 ms-3">
+    		<div class="row ">
           
           <div class="col-8 justify-content-center ps-5 ms-5  tab-wrap">
             
             <div class="tab-content my-4 " id="v-pills-tabContent">
 
-
-                  <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-nextgen-tab">
-                    <form action="#" class="search-destination">
-                      <div class="row  p-1  rounded PurpleLightA g-1">
-
-                  <div class="col-md align-items-center">
-                  <div class="form-group">
-                    <div class="form-field">
-                  <div class="btn-group " data-toggle="buttons">
+              <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-nextgen-tab">
+                <div class="row  px-4 rounded PurpleLightA g-3">
+                <div class="btn-group PurpleLightA" role="group" aria-label="Basic outlined example">
+                  <div class="form-group justify-content-center">
+                  <div class="btn-group" data-toggle="buttons">
                     <label class="btn btn-light  acstive">
                         <input type="checkbox" autocomplete="off"> 
                         <h7>10:25 pm - 11:30 am 1 stop 16h 48min</h7>
                     </label>
+                    </div>
+                  </br></br>
+                    <div class="btn-group" data-toggle="buttons">
+                      <label class="btn btn-light  acstive">
+                          <input type="checkbox" autocomplete="off"> 
+                          <h7>10:25 pm - 11:30 am 1 stop 16h 48min</h7>
+                      </label>
+                      </div>
+                    </br></br>
+                    <div class="btn-group" data-toggle="buttons">
+                      <label class="btn btn-light  acstive">
+                          <input type="checkbox" autocomplete="off"> 
+                          <h7>10:25 pm - 11:30 am 1 stop 16h 48min</h7>
+                      </label>
+                      </div>
+                    </br></br>
+                    <div class="btn-group" data-toggle="buttons">
+                      <label class="btn btn-light  acstive">
+                          <input type="checkbox" autocomplete="off"> 
+                          <h7>10:25 pm - 11:30 am 1 stop 16h 48min</h7>
+                      </label>
+                      </div>
+                    </br></br>
+                   </div>
+ 
                   </div>
-                  </div>
+                  
                 </div>
-                  </div>
-                  <div class="col-md align-items-center">
-                  <div class="form-group">
-                    <div class="form-field">
-                      
-                    <div class="btn-group" data-toggle="buttons">
-                      <label class="btn btn-light  acstive">
-                          <input type="checkbox" autocomplete="off"> 
-                          <h7>10:25 pm - 11:30 am 1 stop 16h 48min</h7>
-                      </label>
-                    </div>
-                    </div>
-                    </div>
-                  </div>
-                  <div class="col-md align-items-center">
-                   <div class="form-group">
-                    <div class="form-field">
-                    <div class="btn-group" data-toggle="buttons">
-                      <label class="btn btn-light  acstive">
-                          <input type="checkbox" autocomplete="off"> 
-                          <h7>10:25 pm - 11:30 am 1 stop 16h 48min</h7>
-                      </label>
-                    </div>
-                      </div>
-                  </div>
-                </div>
-                <div class="col-md align-items-center">
-                    <div class="form-group">
-                      <div class="form-field">
-                    <div class="btn-group" data-toggle="buttons">
-                      <label class="btn btn-light  acstive">
-                          <input type="checkbox" autocomplete="off"> 
-                          <h7>10:25 pm - 11:30 am 1 stop 16h 48min</h7>
-                      </label>
-                      </div>
-                      </div>
-                    </div>
-                  </div>
-                  </div>
-              </form>
                </div>
               </div>
             </div>
           </div>
         </div>
-    	
+    	</div>
     </section>
 
 
@@ -471,7 +460,7 @@
 </div>
 </div>
 </div>
-</div>
+    </div>
 <!--  
 <div class=" col-1  mt-4  ">
   <div class="container-lg align-content-end ">
